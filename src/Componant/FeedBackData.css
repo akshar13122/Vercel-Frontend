@@ -1,0 +1,125 @@
+/* FeedbackData.css */
+.feedmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.feedback-data-container {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(44, 62, 80, 0.9); /* Dark blue with slight opacity */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    width: 98%;
+    max-width: 1800px;
+}
+
+.feedback-data-container h1 {
+    text-align: center;
+}
+
+.feedtbll {
+    width: 1000px;
+    /* max-width: 1200px;  */
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+.feedback-data-container th, td {
+  width: 25%;
+    padding: 16px 20px;  /* Increase padding for a wider feel */
+    text-align: center;
+    color: white;
+    
+
+}
+.td td{
+    background-color: rgba(35, 60, 85, 0.8);
+}
+/* .td td:hover{
+    background-color: rgba(41, 128, 185, 0.3);
+    transition: background 0.3s ease-in-out;
+} */
+ .td:hover{
+    background-color: rgb(70, 203, 255);
+    transition: background 0.3s ease-in-out;
+}
+
+th {
+    background-color: rgba(41, 128, 185, 0.9);
+    color: white;
+}
+
+.deletebtn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.deletebtn:hover {
+    background-color: #d32f2f;
+}
+
+.star {
+    font-size: 1.5rem;
+    color: lightgray; /* Empty stars (unfilled) */
+    cursor: pointer;  /* Optional: change the cursor on hover */
+  }
+  
+  .star.filled {
+    color: gold; /* Filled stars */
+  }
+  
+  .star:hover {
+    color: lightgray; /* Keep unfilled stars gray when hovered */
+  }
+  
+  .star.filled:hover {
+    color: gold; /* Filled stars stay gold even when hovered */
+  }
+  .searchmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-bar{
+
+  }
+  .search-bar {
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(236, 240, 241, 0.6);
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    background: rgba(52, 73, 94, 0.8);
+    color: #ecf0f1;
+  }
+  
+  .search-input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+  }
+  .searchm{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

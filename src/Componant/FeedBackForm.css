@@ -1,0 +1,61 @@
+.feedback-form222 {
+  width: 40%; /* Increased size */
+  margin: 0 auto;
+  padding: 25px; /* Increased padding for more space */
+  border-radius: 8px;
+  position: relative;
+  top: 55px;
+  left: 30px;
+  background-color: #f7f7f7ac; /* Optional: Adding a light background color */
+}
+
+.feedback-form222 h2 {
+  text-align: center;
+  font-size: 24px; /* Increased font size */
+  margin-bottom: 20px; /* Increased margin for spacing */
+}
+
+.form-group222 {
+  margin-bottom: 15px; /* Increased space between form fields */
+}
+
+#bbtn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 30px; /* Increased padding */
+  font-size: 18px; /* Increased font size */
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+#bbtn:hover {
+  background-color: #45a049;
+}
+
+/* Star rating styles */
+.stars-container {
+  display: flex;
+  justify-content: center; /* Center the stars */
+  margin-top: 15px; /* Increased margin */
+}
+.stars-container span{
+  font-size: 90px; 
+}
+.star {
+  font-size: 40px; /* Increased star size */
+  color: lightgray;
+  cursor: pointer;
+  transition: color 0.2s;
+  margin: 0 5px; /* Added space between stars */
+}
+
+.star.filled {
+  color: gold;
+}
+
+.stars-container span:hover {
+  color: gold;
+}

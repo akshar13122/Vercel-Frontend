@@ -1,0 +1,108 @@
+/* Courses List Styles */
+.coursesDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 25px;
+  bottom: 30px;
+}
+
+.courses-dashboard {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(44, 62, 80, 0.9);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  width: 98%;
+  max-width: 1800px;
+}
+
+.courses-dashboard h1 {
+  color: #ecf0f1;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.course-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  /* background: rgba(255, 240, 250, 0.4);  */
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.courses-dashboard table tr {
+  background-color: rgba(44, 62, 80, 0.9);
+}
+
+.courses-dashboard table tr:hover {
+  background-color: rgba(35, 93, 116, 0.847);
+  transition: background 0.3s ease-in-out;
+}
+
+.course-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.editbtn {
+  background: linear-gradient(45deg, #0099ff, #0066cc);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease, background 0.3s ease;
+  text-decoration: none;
+}
+
+.editbtn:hover {
+  background: linear-gradient(45deg, #0066cc, #004999);
+  transform: scale(1.04);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-8px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 600px) {
+  .courses-dashboard {
+      width: 75%;
+  }
+
+  .courses-dashboard h1 {
+      font-size: 1.4rem;
+  }
+
+  .courses-dashboard h2 {
+      font-size: 1.1rem;
+  }
+
+  .course-item {
+      font-size: 0.85rem;
+  }
+}
